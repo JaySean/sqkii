@@ -1,4 +1,4 @@
-## SQKII
+# SQKII
 This repository is used to narrow down locations in Sqkii hunts
 
 ## Installation
