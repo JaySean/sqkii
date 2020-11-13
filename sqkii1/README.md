@@ -5,7 +5,7 @@ This sub repository corresponds to the Sqkii Hunt on 18 June 2020
 
 ### 1. Supermarkets
 
-_Hint #1: IT IS WITHIN A 15-MINUTE WALK FROM A SUPERMARKET._
+_Hint #1: It is within a 15-minute walk from a supermarket._
 
 #### Dataset
 CSV file retrieved from Data.gov.sg
@@ -18,13 +18,14 @@ CSV file retrieved from Data.gov.sg
 + Average Human Walking Speed: 5km/h
 + 15-min walking radius = 1250m radius
 + Each purple circle corresponds to a supermarket
++ White marker indicates the actual answer
 
 ![](https://github.com/JaySean/sqkii/raw/main/sqkii1/images/hint1_output.png "Hint 1 Output")
 
 
 ### 2. Historical Sites and Towns
 
-_HINT #2: THERE IS A HISTORICAL SITE WITHIN THE TOWN._
+_Hint #2: There is a historical site within the town._
 
 #### Dataset
 ##### Historical Site:
@@ -45,6 +46,7 @@ KML file retrieved from Data.gov.sg
 + Each grey marker corresponds to a historial site
 + Each blue polygon/marker corresponds to a town
 + Towns without a historical site are removed
++ White marker indicates the actual answer
 
 ![](https://github.com/JaySean/sqkii/raw/main/sqkii1/images/hint2_output_1.png "Hint 2 Output 1")
 
@@ -52,7 +54,7 @@ KML file retrieved from Data.gov.sg
 
 ### 3. MRT
 
-_HINT #3: IT IS AT LEAST A 40-MINUTE MRT RIDE FROM CHANGI AIRPORT._
+_Hint #3: It is at least a 40-minute MRT ride from Changi Airport._
 
 #### Dataset
 
@@ -69,6 +71,7 @@ KML file retrieved from Data.gov.sg
  "Distance Matrix API")
 + Green markers are at least 40 mins away from Changi Airport
 + Red markers are within 40 mins from Changi Airport
++ White marker indicates the actual answer
 + _Note: Travel distance times calculate by the Distance Matrix API are probably longer than reality_
 
 ![](https://github.com/JaySean/sqkii/raw/main/sqkii1/images/hint3_output.png "Hint 3 Output")

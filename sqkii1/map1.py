@@ -86,7 +86,7 @@ def main():
     # gmap = supermarket(gmap, supermarket_list)
 
     # Answer: 45 Jurong West Street 42
-    # gmap.marker(1.3518808, 103.7168932, color='white', title='Sqkii')
+    gmap.marker(1.3518808, 103.7168932, color='white', title='Sqkii')
 
     # Draw the map:
     gmap.draw('map1.html')
